@@ -1,0 +1,28 @@
+.expense-list-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+button {
+  background-color: #f44336;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

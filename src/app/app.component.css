@@ -1,0 +1,33 @@
+.app-container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .filter-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .filter-group label {
+    margin-bottom: 5px;
+  }
+  .content-wrapper {
+    display: flex;
+    gap: 20px;
+  }
+  .left-panel {
+    flex: 1;
+  }
+  .right-panel {
+    flex: 1;
+  }

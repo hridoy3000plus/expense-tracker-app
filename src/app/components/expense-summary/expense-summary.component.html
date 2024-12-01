@@ -1,0 +1,14 @@
+<div class="summary-container">
+  <h2>Expense Summary</h2>
+
+  <div class="category-breakdown">
+    <h3>Category Breakdown</h3>
+    <div *ngFor="let category of categoriesArray" class="category-item">
+      <span>{{ category.name }}</span>
+      <span>${{ category.amount.toFixed(2) }}</span>
+    </div>
+  </div>
+  <div class="total-expense">
+    Total Expenses: ${{ summary.total.toFixed(2) }}
+  </div>
+</div>
